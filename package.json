@@ -5,10 +5,14 @@
   "repository": "git@github.com:homdreen/GoBarber.git",
   "author": "Felipe Homrich Melchior <fehmel@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.1",
+    "sucrase": "^3.10.1"
   }
 }
